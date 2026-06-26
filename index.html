@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WalkingMonitor — Your daily steps, beautifully visualized. Track walking activity with HealthKit, hourly trends, and Home Screen widgets.">
+  <meta name="theme-color" content="#FF4710">
+
+  <title>WalkingMonitor — Steps Made Simple</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="WalkingMonitor — Steps Made Simple">
+  <meta property="og:description" content="Track your daily steps with beautiful charts, HealthKit integration, and Home Screen widgets.">
+  <meta property="og:image" content="assets/icon-192.png">
+  <meta property="og:type" content="website">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <img src="assets/favicon-32.png" alt="WalkingMonitor icon" width="32" height="32">
+        WalkingMonitor
+      </a>
+      <div class="nav-links">
+        <a href="#screenshots">Screenshots</a>
+        <a href="#features">Features</a>
+        <a href="#widgets">Widgets</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/support/">Support</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="assets/app-icon.png" alt="WalkingMonitor app icon" class="hero-icon" width="288" height="288">
+    <h1>Your steps,<br><span class="accent">beautifully visualized.</span></h1>
+    <p class="hero-tagline">
+      WalkingMonitor reads your walking data from Apple Health and turns it into clear, insightful charts — with Home Screen widgets to keep your progress at a glance.
+    </p>
+    <div class="hero-actions">
+      <a href="https://apps.apple.com/app/walkingmonitor/id6743656684" class="btn-appstore" target="_blank" rel="noopener">
+        <img src="assets/appStore.svg" alt="Download on the App Store">
+      </a>
+        <a href="#screenshots" class="btn btn-secondary">See the App</a>
+    </div>
+  </section>
+
+  <!-- Screenshot Gallery -->
+  <section class="screenshots-section" id="screenshots">
+    <div class="section-label">Screenshots</div>
+    <h2 class="section-title">Beautiful charts, designed for quick glances.</h2>
+
+    <div class="screenshot-gallery">
+      <div class="screenshot-card">
+        <img src="assets/screenshots/IMG_7040.jpg" alt="Today's hourly step chart with comparison to your average" loading="lazy">
+        <p class="caption">Today — hourly breakdown</p>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/IMG_7041.jpg" alt="7-day daily step bar chart" loading="lazy">
+        <p class="caption">7-day bar chart history</p>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/IMG_7042.jpg" alt="30-day step trend line chart" loading="lazy">
+        <p class="caption">30-day trend line</p>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/IMG_7043.jpg" alt="Settings with rate and contact options" loading="lazy">
+        <p class="caption">Settings</p>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/IMG_7044.jpg" alt="Widget setup guide" loading="lazy">
+        <p class="caption">Widget setup guide</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Rows -->
+  <section id="features">
+    <div class="feature-row">
+      <div class="feature-text">
+        <h3>HealthKit integration, zero setup.</h3>
+        <p>WalkingMonitor reads your step count and walking distance directly from Apple Health. Grant permission once and you're done — no accounts, no manual entry, no syncing.</p>
+      </div>
+      <div class="feature-shot">
+        <img src="assets/screenshots/IMG_7040.jpg" alt="WalkingMonitor main dashboard" loading="lazy">
+      </div>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-text">
+        <h3>Track your trends over time.</h3>
+        <p>Toggle between today's hourly breakdown, a 7-day bar chart, or a 30-day trend line. See your total steps, daily average, and how you compare to your typical activity level.</p>
+      </div>
+      <div class="feature-shot">
+        <img src="assets/screenshots/IMG_7041.jpg" alt="7-day step history chart" loading="lazy">
+      </div>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-text">
+        <h3>Widgets for your Home Screen.</h3>
+        <p>Keep your progress visible without opening the app. Choose from Today, 7-day, and 30-day widgets — each sized to fit your Home Screen layout.</p>
+      </div>
+      <div class="feature-shot">
+        <img src="assets/screenshots/IMG_7044.jpg" alt="Widget setup guide" loading="lazy">
+      </div>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-text">
+        <h3>100% private, always.</h3>
+        <p>All data stays on your device. WalkingMonitor reads from HealthKit locally — nothing is collected, stored externally, or shared with anyone. <a href="/privacy/" style="color: var(--steps-orange); text-decoration: none; font-weight: 600;">Read our privacy policy &rarr;</a></p>
+      </div>
+      <div class="feature-shot">
+        <img src="assets/screenshots/IMG_7043.jpg" alt="WalkingMonitor settings" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Metrics Section -->
+  <section class="widgets-section" id="widgets">
+    <div class="section-label">Metrics at a Glance</div>
+    <h2 class="section-title">More than just step counting.</h2>
+
+    <div class="widget-showcase">
+      <div class="widget-card">
+        <div class="widget-icon">📏</div>
+        <h3>Distance Covered</h3>
+        <p>See how far you've walked today in miles or kilometers, pulled directly from HealthKit's walking distance data.</p>
+      </div>
+
+      <div class="widget-card">
+        <div class="widget-icon">⏱️</div>
+        <h3>Active Hours & Peak</h3>
+        <p>Know how many hours you were moving and which hour was your most active. Great for spotting your daily rhythm.</p>
+      </div>
+
+      <div class="widget-card">
+        <div class="widget-icon">📊</div>
+        <h3>Contextual Comparisons</h3>
+        <p>The app compares today against your 7-day average and tells you if you're ahead, behind, or on pace — in plain language.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy Highlight -->
+  <section class="privacy-highlight">
+    <div class="privacy-badge">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5l-9-4zm-1 16h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+      Your data never leaves your device
+    </div>
+    <h2>Designed for privacy from day one.</h2>
+    <p>WalkingMonitor uses Apple HealthKit to read your step data directly on your iPhone. No account to create, no server to sync to, no analytics tracking. What happens on your device stays on your device.</p>
+    <a href="/privacy/" class="btn btn-secondary">Read the full Privacy Policy</a>
+  </section>
+
+  <!-- Download Section -->
+  <section class="download-section">
+    <h2>Ready to track your steps?</h2>
+    <p>WalkingMonitor is free to download. No subscriptions, no accounts.</p>
+    <a href="https://apps.apple.com/app/walkingmonitor/id6743656684" class="btn-appstore" target="_blank" rel="noopener">
+      <img src="assets/appStore.svg" alt="Download on the App Store">
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-text">&copy; 2026 maadotaa. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/support/">Support</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
